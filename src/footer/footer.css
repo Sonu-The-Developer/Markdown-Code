@@ -1,0 +1,33 @@
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+.footer{
+    background-color: white;
+    padding: 10px 10px;
+    margin: 20px auto 0px;
+    display: flex;
+    gap: 10vw;
+    font-size: 20px !important;
+    justify-content: center;
+}
+
+@media (max-width: 500px) {
+    .footer{
+        gap: 5vw;
+        font-size: 16px !important;
+    }
+}
+
+@media (max-width: 370px) {
+    .footer{
+        /* gap: 5vw; */
+        width: 100vw;
+        position: relative;
+        right: 0px;
+        bottom: 0px;
+        font-size: 16px !important;
+    }
+}
